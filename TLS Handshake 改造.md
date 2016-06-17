@@ -12,25 +12,25 @@
 - SSL_Write改造
 - 移除NPN/ALPN协商过程，默认支持SPDY
 
-服务端改造
-TLS Handshake处理流程改造
-SSL_Read改造
-SSL_Write改造
-移除NPN/ALPN协商过程, 默认支持SPDY
+# 服务端改造
+- TLS Handshake处理流程改造
+- SSL_Read改造
+- SSL_Write改造
+- 移除NPN/ALPN协商过程, 默认支持SPDY
 
-后续工作
-基于随机数生成私钥
-SessionKey计算
-数据加解密
-故障处理、降级方案
-…
+# 后续工作
+- 基于随机数生成私钥
+- SessionKey计算
+- 数据加解密
+- 故障处理、降级方案
+- …
 
-首次建连时间对比
+# 首次建连时间对比
 	测试方法及环境
-基于Tengine搭建的Local server
-通过SPDY协议请求newapi.mogujie.com
-测试设备 HM Note
-网络环境 mogujie-guest
+- 基于Tengine搭建的Local server
+- 通过SPDY协议请求newapi.mogujie.com
+- 测试设备 HM Note
+- 网络环境 mogujie-guest
 
 	说明
 以下数据是请求发出到数据返回的时间，包括TLS握手时间
