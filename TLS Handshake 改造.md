@@ -45,3 +45,9 @@ IETF发布的The Transport Layer Security (TLS) Protocol Version 1.3 中提出�
 |:---:|:---:|:---:|:---:|
 |MoguSSL|440|587|277
 |TLS|588.6|941|430
+
+![](http://s17.mogucdn.com/new1/v1/bmisc/66c12868d460cbc3cf19f3a5ffe131db/176964141097.png
+)
+
+![](http://s17.mogucdn.com/new1/v1/bmisc/d2f51160884bacb2378bc6aa8cc69402/176964231757.png
+)
