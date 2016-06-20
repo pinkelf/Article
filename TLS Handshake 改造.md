@@ -1,12 +1,12 @@
 ## 背景
-SSL建连需要2个RTT和Server交换证书、协商密钥等，在移动端弱网的情况下体验比较差，这严重影响公司业务API推广HTTPS通道，另外移动端应用的新协议如SPDY/HTTP 2.0的前提也是如何保证有效建立SSL连接。
+&emsp;&emsp;SSL建连需要2个RTT和Server交换证书、协商密钥等，在移动端弱网的情况下体验比较差，这严重影响公司业务API推广HTTPS通道，另外移动端应用的新协议如SPDY/HTTP 2.0的前提也是如何保证有效建立SSL连接。
 
-IETF发布的The Transport Layer Security (TLS) Protocol Version 1.3 中提出了如何使用1-RTT甚至0-RTT建立SSL连接，目前TLS 1.3处于草案阶段，还没有具体的实现。腾讯和手淘基于TLS 1.3的标准各自实现了对TLS握手的改造，实现了1-RTT和0-RTT，优化了SSL建连成本。
+&emsp;&emsp;IETF发布的The Transport Layer Security (TLS) Protocol Version 1.3 中提出了如何使用1-RTT甚至0-RTT建立SSL连接，目前TLS 1.3处于草案阶段，还没有具体的实现。腾讯和手淘基于TLS 1.3的标准各自实现了对TLS握手的改造，实现了1-RTT和0-RTT，优化了SSL建连成本。
 
 ## 已完成工作
-我们参考了TLS 1.3以及腾讯和手淘方案，尝试基于Chromium网络栈和Nginx对TLS握手进行改造，目前已经完成的工作如下：
+&emsp;&emsp;我们参考了TLS 1.3以及腾讯和手淘方案，尝试基于Chromium网络栈和Nginx对TLS握手进行改造，目前已经完成的工作如下：
 ### 客户端改造
-在客户预埋服务端的证书，减少证书交换环节
+&emsp;&emsp;在客户预埋服务端的证书，减少证书交换环节
 - TLS Handshake请求流程改造
 - SSL_Read改造
 - SSL_Write改造
