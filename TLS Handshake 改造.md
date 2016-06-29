@@ -23,9 +23,17 @@
 - 完善SPDY协议协商代码
 - 自定义Handshake数据包首字节，扩展nginx处理Handshake的逻辑，以实现客户端主动降级的方案
 - 测试Handshake时间和首包返回时间
-- 基于随机数生成私钥
-- SessionKey计算
+- 简化版密钥协商
+  - Create an Elliptic Curve Key object and set it up to use the ANSI X9.62 Prime 256v1 curve
+  - Generate the private and public key
+  - Load the builtin peer's public key, and provide the peer with our public key
+  - Calculate the size of the buffer for the shared secret
+  - Allocate the memory for the shared secret
+  - Derive the shared secret
+  - Clean up
 - 数据加解密
+  - AES256-CBC encrypt with shared secret key
+- SessionKey计算
 - 故障处理、降级方案
 - …
 
@@ -46,8 +54,18 @@
 |MoguSSL|440|587|277
 |TLS|588.6|941|430
 
+### 时序图
+
 ![](http://s17.mogucdn.com/new1/v1/bmisc/66c12868d460cbc3cf19f3a5ffe131db/176964141097.png
 )
 
 ![](http://s17.mogucdn.com/new1/v1/bmisc/d2f51160884bacb2378bc6aa8cc69402/176964231757.png
 )
+
+### 参考资料
+- https://wiki.openssl.org/index.php/Elliptic_Curve_Diffie_Hellman#Using_ECDH_in_OpenSSL
+- https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=2649286266&idx=1&sn=f5d049033e251cccc22e163532355ddf&scene=1&srcid=0510ZjLMT7ma4PK5UpqvtmYp&key=77421cf58af4a6538a4f16da3110651a25ce364f71b433d47f7a35b685a3d20020c7c12bcb0549544da4cc19aaa17fd2&ascene=0&uin=MTQxMjAxMjEyMA%3D%3D&devicetype=iMac+MacBookPro12%2C1+OSX+OSX+10.10.5+build(14F27)&version=11020201&pass_ticket=IbPS0qNoweLQ6z9n7tlnuqPS6WYINIdB35zgvWksSOotNS17BzQYQW5zJcs2cQhL
+- http://snipplr.com/view/83706/
+- http://stackoverflow.com/questions/18155559/how-does-one-access-the-raw-ecdh-public-key-private-key-and-params-inside-opens
+- https://www.zhihu.com/question/25116415
+- http://blog.chinaunix.net/uid-9543173-id-3921143.html
