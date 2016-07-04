@@ -9,3 +9,6 @@
 - [Chrome学习笔记（二）：UI组件，皮肤引擎 —— 基础设施篇](http://bigasp.com/archives/520 )
 - [Chromium 基础库使用说明](https://www.zybuluo.com/rogeryi/note/56894)
 - [JNI on Chromium for Android](https://www.chromium.org/developers/design-documents/android-jni)
+- [Cross-platform develeopment with Chromium](http://geekluo.com/contents/2014/05/21/19-cross-platform-development-with-chromium.html)
+- [iOS Run Loops in Chromium](http://geekluo.com/contents/2014/04/22/11-ios-run-loops-in-chromium.html)
+- [Chrome是新的C运行时](http://www.labazhou.net/2014/01/chrome-is-the-new-c-runtime/)
