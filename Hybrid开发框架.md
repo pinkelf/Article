@@ -33,3 +33,7 @@
 - 渲染时
   - 独立Web引擎
   - XCore
+
+#### 参考资料
+- [手机淘宝Hybrid性能优化实战](https://pan.baidu.com/s/1geF4YJ5)
+- [15年双11手淘前端技术巡演 - H5性能最佳实践](https://github.com/amfe/article/issues/21)

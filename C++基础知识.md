@@ -85,3 +85,5 @@
 - [如何理解智能指针](https://www.zhihu.com/question/20368881)
 - [当析构函数遇到多线程──C++ 中线程安全的对象回调](http://blog.csdn.net/Solstice/article/details/5238671)
 - [C++ 工程实践经验谈](https://cloud.github.com/downloads/chenshuo/documents/CppPractice.pdf)
+- [C++对象模型](http://blog.jobbole.com/101583/)
+- [C++语法层面](http://www.cnblogs.com/leohxj/archive/2012/03/31/2427703.html)
