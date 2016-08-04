@@ -1,58 +1,10 @@
 
 # 项目面
-## Chromium Base库
-### 智能指针
-### Crash Handler
+## [Chromium Base库](https://github.com/ustcqidi/Article/blob/master/%E5%9F%BA%E4%BA%8EChromium%20Code%20Base%E6%9E%84%E5%BB%BAApp%E8%B7%A8%E5%B9%B3%E5%8F%B0%E5%9F%BA%E7%A1%80%E5%BA%93.md)
 
-### 网络栈
+## [网络栈](https://github.com/ustcqidi/Article/blob/master/%E7%BD%91%E7%BB%9C%E6%A0%88%E5%BC%80%E5%8F%91%E3%80%81%E5%AE%9A%E5%88%B6%E3%80%81%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5.md)
 
-#### 优化实践
-- WebView Proxy
-- DNS
-- SPDY / HTTP 2.0
-
-#### Chromium网络栈
-- HTTP Pipeline
-- Prefetch
-- SPDY
-- Cache
-- Connection Management
-
-### Hybrid开发框架
-#### 框架
-- Cordova
-- 业务插件
-- 独立Web引擎
-- XCore
-
-#### 性能监控体系
-- 全链路埋点
-  - 下载时
-    - DSN解析
-    - TCP链接
-    - TLS握手
-    - HTTP请求
-    - HTTP响应
-  - 渲染时
-    - DOM Loading
-    - DOM Interactive
-    - DOM Complete
-- 数据分析与展示
-
-#### 性能优化
-- 下载时
-  - 图片优化
-    - WebP
-    - Sprite
-  - 离线化
-  - 网络优化
-    - HTTPDNS
-    - 代理转发
-    - Prefetch
-    - SPDY / HTTP 2.0
-- 渲染时
-  - 独立Web引擎
-  - XCore
+## [Hybrid开发框架](https://github.com/ustcqidi/Article/blob/master/Hybrid%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6.md)
 
 # 技术面
 ## C++
