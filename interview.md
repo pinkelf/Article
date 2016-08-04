@@ -5,14 +5,18 @@
 ### Crash Handler
 
 ### 网络栈
-- 优化实践
-  - WebView Proxy
-- Chromium网络栈
-  - HTTP Pipeline
-  - Prefetch
-  - SPDY
-  - Cache
-  - Connection Management
+
+#### 优化实践
+- WebView Proxy
+- DNS
+- SPDY / HTTP 2.0
+
+#### Chromium网络栈
+- HTTP Pipeline
+- Prefetch
+- SPDY
+- Cache
+- Connection Management
 
 ### Hybrid开发框架
 #### 框架
@@ -93,4 +97,7 @@
 - [C++对象模型](http://blog.jobbole.com/101583/)
 - [C++语法层面](http://www.cnblogs.com/leohxj/archive/2012/03/31/2427703.html)
 - [携程网络性能优化实践](http://dwz.cn/3SJhfW)
+- [移动开发网络性能优化实践
+](http://www.jianshu.com/p/838fd3f1b121)
 - [手机淘宝Hybrid性能优化实战](https://pan.baidu.com/s/1geF4YJ5)
+- [15年双11手淘前端技术巡演 - H5性能最佳实践](https://github.com/amfe/article/issues/21)
