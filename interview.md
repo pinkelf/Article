@@ -13,7 +13,7 @@
 
 ### 算法
 
-### [网络基础](https://github.com/ustcqidi/Article/blob/master/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80.md)
+### [网络编程基础](https://github.com/ustcqidi/Article/blob/master/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80.md)
 
 ### 多线程
 - 线程同步
