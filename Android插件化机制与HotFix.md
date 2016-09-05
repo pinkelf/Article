@@ -18,11 +18,12 @@
 -代理Activity
 
 ### 技术原理
-ClassLoader[6]
+- ClassLoader[6]
 1. 隔离问题
 2. Android ClassLoader
   - dalvik.system.DexClassLoader
   - dalvik.system.PathClassLoader
+- Hook机制
 
 ### 开源方案
 - [DynamicLoadApk](https://github.com/singwhatiwanna/dynamic-load-apk)
@@ -41,5 +42,5 @@ ClassLoader[6]
 - [DynamicLoadApk](https://github.com/singwhatiwanna/dynamic-load-apk)
 - [Andfix](https://github.com/alibaba/AndFix)
 - [携程Android App插件化和动态加载实践]( http://www.infoq.com/cn/articles/ctrip-android-dynamic-loading)
-- [微信 Tinker 负责人张绍文关于 Android 热修复直播分享记录
-](http://www.diycode.cc/topics/231)
+- [微信 Tinker 负责人张绍文关于 Android 热修复直播分享记录](http://www.diycode.cc/topics/231)
+- [Android插件化原理解析——Hook机制之动态代理](http://weishu.me/2016/01/28/understand-plugin-framework-proxy-hook/)
