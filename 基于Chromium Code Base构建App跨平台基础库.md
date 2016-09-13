@@ -16,3 +16,4 @@
 - [Chrome是新的C运行时](http://www.labazhou.net/2014/01/chrome-is-the-new-c-runtime/)
 - [Chromium网络协议栈架构浅析](https://blog.finaltheory.me/research/Chromium-Network-Stack.html)
 - [chromium base 目录概述](https://docs.google.com/document/d/1kGTXjfBfOZxGjmifT-LJqnAaa04VVTtpNHtqo_P67o4/edit?pref=2&pli=1#heading=h.fhc0z5y5dc6u)
+- [pure-native移动跨平台架构设计与实战](http://www.infoq.com/cn/presentations/design-and-actual-combat-of-pure-native-mobile-cross-platform-architecture)
