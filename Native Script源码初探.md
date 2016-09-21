@@ -6,36 +6,37 @@
 ![](http://developer.telerik.com/wp-content/uploads/2014/06/nativescript3.png)
 
 ### Application Lifecycle
-- #### Android Activity
-- #### iOS UIApplicationDelegate
+- Android Activity
+- iOS UIApplicationDelegate
 
 ### TNS Modules
-- #### UI Widgets
-- #### Layouts
-- #### UI Modules
-- #### Data Modules
-- #### Device functionality
-- #### Timer
-- #### trace
-- #### http
-- #### ...
+- UI Widgets
+- Layouts
+- UI Modules
+- Data Modules
+- Device functionality
+- Timer
+- Trace
+- http
+- ...
 
 ### Debugging
+
 ### NativeScript Runtimes
-- #### Data Bindings
-- #### Argument/Type Converter
-- #### MetaData
-- #### Class Generator
-- #### Javascript Engine
-- #### Exception Handling
-- #### Marshalling Service
+- Data Bindings
+- Argument/Type Converter
+- MetaData
+- Class Generator
+- Javascript Engine
+- Exception Handling
+- Marshalling Service
 
 ### Plugins
-- #### npm packages
+- npm packages
   - Package.json
   - CommonJS Module
-- #### exposes a native API via Javascript
-- #### Encapsulation NativeScript View as Webview to reuse Cordova plugin mechanism
+- exposes a native API via Javascript
+- Encapsulation NativeScript View as Webview to reuse Cordova plugin mechanism
 
 ### 参考资料
 - [On NativeScript for Android](http://developer.telerik.com/featured/nativescript-android/)
