@@ -24,5 +24,9 @@
 - [旅行喵 React Native 技术实践](http://ios.jobbole.com/86082/)
 - [react-native 在全民k歌的开发实践](http://download.csdn.net/detail/zhongefengfrank/9469393)
 - [React Native Bundle 拆分](http://gold.xitu.io/entry/574a96e7a34131005913dae1)
+- [Leverage Existing iOS Views In Your React Native App](http://moduscreate.com/leverage-existing-ios-views-react-native-app/)
+- [江清清 React Native技术文章](http://www.lcode.org/category/react-native-zong/react-native/)
+- [基于React Native的58 APP开发实践](http://dwz.cn/4fMtcS)
+- [React源码剖析系列 － 不可思议的react diff JAVASCRIPT](http://www.w3ctech.com/topic/1598)
 
 ### Open Source

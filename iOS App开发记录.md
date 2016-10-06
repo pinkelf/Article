@@ -1,3 +1,5 @@
+##开源项目
+
 ### UI
 - [TabBar](https://github.com/ezescaruli/ESTabBarController.git)
 - [Autolayout](https://github.com/SnapKit/Masonry)
@@ -11,3 +13,20 @@
 - [Reachability](https://github.com/tonymillion/Reachability.git)
 - [页面跳转解耦](https://github.com/mogujie/MGJRouter)
 - [Hex color strings to UIColor](https://github.com/kevinrenskers/UIColor-HexString)
+
+##备忘
+
+### 状态栏
+- View controller-based status bar appearance -> NO
+- Status bar is initially hidden -> YES
+
+### 网络
+- App Transport Security Settings -> Allow Arbitrary Loads -> YES
+
+### UITabbar和UINavigationController
+- main.story 中的UIViewController可以通过菜单Eidter -> Embed in -> Navigation Controller
+- UITabbar对应的UIViewController的导航栏应该在每个ViewController实现
+- self.navigationController.navigationBarHidden = NO; 设置导航栏是否可见
+
+### Cordova
+- Status Plugin插件会resize webview
