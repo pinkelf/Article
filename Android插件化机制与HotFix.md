@@ -33,7 +33,7 @@
 - [AndFix](https://github.com/alibaba/AndFix)
 
 
-### 参考资料
+### 文章
 - [Android 插件化 动态升级](http://www.trinea.cn/android/android-plugin/)
 - [DroidPlugin](https://github.com/Qihoo360/DroidPlugin)
 - [Android拆分与加载Dex的多种方案对比](http://dwz.cn/3Xxhg8)
@@ -44,3 +44,10 @@
 - [携程Android App插件化和动态加载实践]( http://www.infoq.com/cn/articles/ctrip-android-dynamic-loading)
 - [微信 Tinker 负责人张绍文关于 Android 热修复直播分享记录](http://www.diycode.cc/topics/231)
 - [Android插件化原理解析——Hook机制之动态代理](http://weishu.me/2016/01/28/understand-plugin-framework-proxy-hook/)
+- [Android插件化开发，初入殿堂](http://kymjs.com/code/2014/09/15/02)
+- [Android Patch 方案与持续交付](http://dwz.cn/3TG3xY)
+- [Android主题换肤 无缝切换](http://www.jianshu.com/p/af7c0585dd5b)
+- [Android插件化原理解析——Hook机制之动态代理](http://weishu.me/2016/01/28/understand-plugin-framework-proxy-hook/)
+- [dex注入实现详解](http://taoyuanxiaoqi.com/2015/03/16/dexinject/)
+- [ZeusPlugin：掌阅Android App插件补丁实践](http://dwz.cn/45M023)
+- [Android热修复技术选型——三大流派解析](http://dwz.cn/48Gi9t)
