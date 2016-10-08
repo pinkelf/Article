@@ -78,7 +78,7 @@
   - 基线收银台模块RN扩展插件
   - 基线登录模块RN扩展插件
   - 基线分享RN扩展插件
-  - RN分包研究
+  - [RN分包研究](https://github.com/ustcqidi/Article/blob/master/React%20Native%20repack%20solution/repack.md)
 <br>
 </br>
 3. 人员

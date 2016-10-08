@@ -30,3 +30,10 @@
 
 ### Cordova
 - Status Plugin插件会resize webview
+
+### CocoaPods
+-  include of non-modular header inside framework module
+  - pod repo push <repoName> <podspec> --use-libraries
+
+### 文章
+- [COCOAPODS创建私有PODS](http://www.cnblogs.com/tufeibo/p/5654268.html)
