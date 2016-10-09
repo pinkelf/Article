@@ -27,6 +27,9 @@
 - main.story 中的UIViewController可以通过菜单Eidter -> Embed in -> Navigation Controller
 - UITabbar对应的UIViewController的导航栏应该在每个ViewController实现
 - self.navigationController.navigationBarHidden = NO; 设置导航栏是否可见
+- 隐藏 Tabbar
+  - self.tabbar.hidden = hidden;
+  - [self.tabBar setTranslucent:hidden];
 
 ### Cordova
 - Status Plugin插件会resize webview
@@ -35,5 +38,5 @@
 -  include of non-modular header inside framework module
   - pod repo push <repoName> <podspec> --use-libraries
 
-### 文章
+## 文章
 - [COCOAPODS创建私有PODS](http://www.cnblogs.com/tufeibo/p/5654268.html)

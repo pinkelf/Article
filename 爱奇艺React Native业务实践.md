@@ -16,10 +16,9 @@
   - 包大小
   - 真机体验
 
-### 推广
-- [React Native调研分享](https://github.com/ustcqidi/Keynote/blob/master/rn.pptx.zip)
-
 ### 框架层工作
+![](https://raw.githubusercontent.com/ustcqidi/Image/master/iqiyi_rn_arch.jpeg)
+
 1. RN 框架集成
   - 集成方式
     - 基础Pods库
@@ -29,8 +28,8 @@
 <br><br/>
 2. 业务插件支持
   - 扩展机制研究
-    - rn扩展，js部分发布到本地npm服务器
-    - rn扩展，native部分集成到rn框架工程中
+    - RN扩展，js部分发布到本地npm服务器
+    - RN扩展，native部分集成到RN框架工程中
   - 收银台
   - 登录
   - 分享
@@ -49,17 +48,22 @@
       - NavigatorIOS
   - 优化方法
     - 提前上下文初始化
-    - bundle拆分
+    - [bundle拆分](https://github.com/ustcqidi/Article/blob/master/React%20Native%20repack%20solution/repack.md)
     - 缓存 AsyncStorage
 <br><br/>
-4. 风险控制、降级方案
+5. 风险控制、降级方案
 
-5. 踩过的坑
-- RCT开头的模块，RN加载的时候回去掉RCT前缀
-- React Native框架工程引用基线工程模块是通过配置Header Search Paths完成编译的
-  - RN框架会编译成静态库，不会链接出错，最终运行需要再基线主工程中确保可以链接到基线基础库
-  - RN框架依赖的基线库和头文件可以使用init.sh脚步拉取
-- RN与系统Cookie同步
+6. 踩过的坑
+  - RCT开头的模块，RN加载的时候回去掉RCT前缀
+  - React Native框架工程引用基线工程模块是通过配置Header Search Paths完成编译的
+    - RN框架会编译成静态库，不会链接出错，最终运行需要再基线主工程中确保可以链接到基线基础库
+    - RN框架依赖的基线库和头文件可以使用init.sh脚步拉取
+  - RN与系统Cookie同步
+  - 接触了Gerrit
+  - 电商首页是Tabbar方式布局的，我们要改造的"秒杀"列表页面只是其他一个Tab页面，点击"秒杀"列表项时进入商品详情页，这时候默认情况下底部的Tabbar还在；考虑过重新启一个RN页面实例，然后使用pushViewConroller方式打开详情页面；这种方案有两个问题：1. 多个RN实例，内存、CPU开销变大；2. RN只有入口url，不是每个页面都有url，要新启动RN的View需要业务方针对“秒杀”列表和详情页面分别写两个入口，这样的话会涉及两个页面的参数传递问题。最后把解决问题的焦点放在 ***隐藏Tabbar*** 上，具体方案参考[这里](https://github.com/ustcqidi/Article/blob/master/iOS%20App%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95.md)。
+
+### 推广
+  - [React Native调研分享](https://github.com/ustcqidi/Keynote/blob/master/rn.pptx.zip)
 
 ### 产品落地
 #### 电商
@@ -91,3 +95,13 @@
 <br></br>&emsp;&emsp;框架集成、扩展机制调研等需要2周左右，“秒杀业务”改造、业务部署流程调研等大概需要4周左右。
 
 ![](https://github.com/ustcqidi/Image/blob/master/imall_plan.jpeg?raw=true)
+
+#### 泡泡
+1. 具体工作
+  - Kickoff会议，讨论泡泡可改造页面
+
+#### iPAD活动页面
+1. 具体工作
+  - Kickoff会议
+
+#### 动漫
