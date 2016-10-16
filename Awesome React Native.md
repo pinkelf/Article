@@ -26,5 +26,9 @@
 - [React Native Bundle 拆分](http://gold.xitu.io/entry/574a96e7a34131005913dae1)
 - [深入浅出React（四）：虚拟DOM Diff算法解析](http://www.infoq.com/cn/articles/react-dom-diff)
 - [译 深入解析react](http://www.ifeenan.com/javascript/2014-09-10-[%E8%AF%91]%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90React/)
+- [Leverage Existing iOS Views In Your React Native App](http://moduscreate.com/leverage-existing-ios-views-react-native-app/)
+- [江清清 React Native技术文章](http://www.lcode.org/category/react-native-zong/react-native/)
+- [基于React Native的58 APP开发实践](http://dwz.cn/4fMtcS)
+- [React源码剖析系列 － 不可思议的react diff JAVASCRIPT](http://www.w3ctech.com/topic/1598)
 
 ### Open Source
