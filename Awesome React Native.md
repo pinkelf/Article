@@ -24,5 +24,7 @@
 - [旅行喵 React Native 技术实践](http://ios.jobbole.com/86082/)
 - [react-native 在全民k歌的开发实践](http://download.csdn.net/detail/zhongefengfrank/9469393)
 - [React Native Bundle 拆分](http://gold.xitu.io/entry/574a96e7a34131005913dae1)
+- [深入浅出React（四）：虚拟DOM Diff算法解析](http://www.infoq.com/cn/articles/react-dom-diff)
+- [译 深入解析react](http://www.ifeenan.com/javascript/2014-09-10-[%E8%AF%91]%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90React/)
 
 ### Open Source
