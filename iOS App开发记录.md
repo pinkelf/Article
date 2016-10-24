@@ -5,6 +5,7 @@
 - [Autolayout](https://github.com/SnapKit/Masonry)
 - [引导页](https://github.com/bing6/KSGuide.git)
 - [轮播组件](https://github.com/tedy51/BannerLoop)
+- [国家码选择](https://github.com/Dwarven/PhoneCountryCodePicker)
 
 
 ### 基础功能组件
@@ -16,6 +17,7 @@
 - [多语言](https://github.com/whde/WhdeLocalized)
 - [Method Swizzling](https://github.com/rentzsch/jrswizzle)
 - [EventBus-iOS](https://github.com/github-xiaogang/EventBus-iOS)
+- [Navigation Router](https://github.com/idevzhou/ZYYRouter)
 
 ##备忘
 
@@ -27,7 +29,7 @@
 - App Transport Security Settings -> Allow Arbitrary Loads -> YES
 
 ### UITabbar和UINavigationController
-- main.story 中的UIViewController可以通过菜单Eidter -> Embed in -> Navigation Controller
+- main.story 中的UIViewController可以通过菜单Editor -> Embed in -> Navigation Controller
 - UITabbar对应的UIViewController的导航栏应该在每个ViewController实现
 - self.navigationController.navigationBarHidden = NO; 设置导航栏是否可见
 - 隐藏 Tabbar

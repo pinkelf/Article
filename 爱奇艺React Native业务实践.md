@@ -47,7 +47,7 @@
       - [官方资料](https://facebook.github.io/react-native/docs/performance.html )
       - NavigatorIOS
   - 优化方法
-    - 提前上下文初始化
+    - [提前上下文初始化(Pre-loading the Bridge)](https://github.com/dsibiski/react-native-hybrid-app-examples/blob/master/README.md)
     - [bundle拆分](https://github.com/ustcqidi/Article/blob/master/React%20Native%20repack%20solution/repack.md)
     - 缓存 AsyncStorage
 <br><br/>
@@ -103,5 +103,9 @@
 #### iPAD活动页面
 1. 具体工作
   - Kickoff会议
+  - 出差协助改造
+  - 7.10上线
 
 #### 动漫
+
+#### 文学

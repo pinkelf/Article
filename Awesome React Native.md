@@ -30,5 +30,11 @@
 - [江清清 React Native技术文章](http://www.lcode.org/category/react-native-zong/react-native/)
 - [基于React Native的58 APP开发实践](http://dwz.cn/4fMtcS)
 - [React源码剖析系列 － 不可思议的react diff JAVASCRIPT](http://www.w3ctech.com/topic/1598)
+- [ReactNative增量升级方案](http://bbs.reactnative.cn/topic/276/reactnative%E5%A2%9E%E9%87%8F%E5%8D%87%E7%BA%A7%E6%96%B9%E6%A1%88/2)
+- [React Native For Android 架构初探](https://zhuanlan.zhihu.com/p/20259704)
+- [ReactNative_Android_QA](https://github.com/yipengmu/ReactNative_Android_QA)
+- [ReactNative的组件架构设计](https://segmentfault.com/a/1190000004161358)
+- [React Native Hybrid App Examples](https://github.com/dsibiski/react-native-hybrid-app-examples/blob/master/README.md)
 
 ### Open Source
+- [react-native-hybrid-app-examples](https://github.com/dsibiski/react-native-hybrid-app-examples)
