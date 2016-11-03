@@ -25,6 +25,9 @@
     - 集成电商
     - 集成基线
   - 维护成本
+  - 支持版本
+    - iOS 7以上
+    - Android 4.1以上
 <br><br/>
 2. 业务插件支持
   - 扩展机制研究
@@ -42,7 +45,7 @@
 4. 优化
   - 优化点
     - 首屏
-    - 包大小 Release版本增加1M
+    - 包大小 (Release版本增加1M)
     - Navigation动画卡顿问题
       - [官方资料](https://facebook.github.io/react-native/docs/performance.html )
       - NavigatorIOS
@@ -59,8 +62,18 @@
     - RN框架会编译成静态库，不会链接出错，最终运行需要再基线主工程中确保可以链接到基线基础库
     - RN框架依赖的基线库和头文件可以使用init.sh脚步拉取
   - RN与系统Cookie同步
-  - 接触了Gerrit
   - 电商首页是Tabbar方式布局的，我们要改造的"秒杀"列表页面只是其他一个Tab页面，点击"秒杀"列表项时进入商品详情页，这时候默认情况下底部的Tabbar还在；考虑过重新启一个RN页面实例，然后使用pushViewConroller方式打开详情页面；这种方案有两个问题：1. 多个RN实例，内存、CPU开销变大；2. RN只有入口url，不是每个页面都有url，要新启动RN的View需要业务方针对“秒杀”列表和详情页面分别写两个入口，这样的话会涉及两个页面的参数传递问题。最后把解决问题的焦点放在 ***隐藏Tabbar*** 上，具体方案参考[这里](https://github.com/ustcqidi/Article/blob/master/iOS%20App%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95.md)。
+
+7. TODO
+  - 分包方案实现
+  - 稳定性监控
+  - RN异常捕获机制调研
+
+### 工程化
+  - RN的性能监控
+  - RN的基础js封装
+  - RN的代码规范和相关sample code
+  - RN的相关资料完善，包括wiki，接入demo工程等
 
 ### 推广
   - [React Native调研分享](https://github.com/ustcqidi/Keynote/blob/master/rn.pptx.zip)
@@ -109,3 +122,5 @@
 #### 动漫
 
 #### 文学
+1. 具体工作
+  - Kickoff会议

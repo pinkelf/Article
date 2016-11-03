@@ -35,6 +35,12 @@
 - 隐藏 Tabbar
   - self.tabbar.hidden = hidden;
   - [self.tabBar setTranslucent:hidden];
+- [self.navigationController.navigationBar.topItem setTitle:@"XXX"];
+
+### UITableViewController 顶部空白
+  - self.tableView.contentInset = UIEdgeInsetsMake(-40, 0, 0, 0);
+  - self.edgesForExtendedLayout = UIRectEdgeNone;
+  - self.automaticallyAdjustsScrollViewInsets = NO;
 
 ### Cordova
 - Status Plugin插件会resize webview
@@ -64,3 +70,6 @@
 - [iOS黑魔法－Method Swizzling](http://www.cocoachina.com/ios/20160121/15076.html)
 - [iOS 组件化方案探索](http://blog.cnbang.net/tech/3080/)
 - [做一个 App 前需要考虑的几件事](http://limboy.me/tech/2016/07/06/starting-an-app.html)
+- [最快让你上手ReactiveCocoa之基础篇](http://www.jianshu.com/p/87ef6720a096)
+- [Masonry介绍与使用实践(快速上手Autolayout)](http://adad184.com/2014/09/28/use-masonry-to-quick-solve-autolayout/)
+- [iOS可执行文件瘦身方法](http://blog.cnbang.net/tech/2544/)

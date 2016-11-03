@@ -35,6 +35,7 @@
 - [ReactNative_Android_QA](https://github.com/yipengmu/ReactNative_Android_QA)
 - [ReactNative的组件架构设计](https://segmentfault.com/a/1190000004161358)
 - [React Native Hybrid App Examples](https://github.com/dsibiski/react-native-hybrid-app-examples/blob/master/README.md)
+- [React Native 业务实践和性能优化](http://pstatic.geekbang.org/pdf/5809b3de09d43.pdf?e=1477279414&token=eHNJKRTldoRsUX0uCP9M3icEhpbyh3VF9Nrk5UPM:BPdpEvbYdDyKIxvxdCI4c5mzAh0=)
 
 ### Open Source
 - [react-native-hybrid-app-examples](https://github.com/dsibiski/react-native-hybrid-app-examples)
