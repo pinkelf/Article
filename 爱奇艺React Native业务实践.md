@@ -77,6 +77,7 @@
 
 ### 推广
   - [React Native调研分享](https://github.com/ustcqidi/Keynote/blob/master/rn.pptx.zip)
+  - [业务方接入React Native FAQ](https://github.com/ustcqidi/Article/blob/master/%E4%B8%9A%E5%8A%A1%E6%96%B9%E6%8E%A5%E5%85%A5React%20Native%20FAQ.md)
 
 ### 产品落地
 #### 电商
