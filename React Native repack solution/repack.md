@@ -63,7 +63,7 @@
 
 &emsp;&emsp;initLogin接口增加字段：
 
-|JSON节点	|类型	|取值范围	|含义|
+|JSON节点	|类型	|含义|
 |:------:|:------:|:------:|
 |reactnative	|long	 	|后台上次操作的时间戳，与jspatch的设计方式一致
 |reactnative_switch	|bool	 	|RN的全局开关。（在灰度测试或者厂商黑名单等情况下考虑使用）
