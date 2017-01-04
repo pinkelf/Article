@@ -91,6 +91,26 @@ try{
           //处理reader相关逻辑
         }
       }];
+<br>
+### 打包部署
+1. 导入RCTLog否则可能会出现一些诡异异常
+var RCTLog = require('RCTLog');
+
+2. 打release bundle (以下是iOS为例子，Android类似)
+react-native bundle --entry-file index.ios.js --platform ios --dev false --bundle-output ./ios/bundle/index.ios.jsbundle --assets-dest ./ios/bundle
+
+3. 上传Release bundle到CDN (发布部署平台正在开发)
+
+### 性能埋点
+&emsp;&emsp;目前RN框架层面已经集成APM，可以监控RN页面的启动时间，业务方需要再componentDidUpdate回调中，通过QYRouter通知框架层面埋点，具体的action是:
+
+  {
+      action: 'componentDidUpdate',
+      params: {
+        from: 'paopao'
+      }
+  }
+
 
 
 ## 内存消耗

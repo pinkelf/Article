@@ -37,6 +37,12 @@
 - [React Native Hybrid App Examples](https://github.com/dsibiski/react-native-hybrid-app-examples/blob/master/README.md)
 - [React Native 业务实践和性能优化](http://pstatic.geekbang.org/pdf/5809b3de09d43.pdf?e=1477279414&token=eHNJKRTldoRsUX0uCP9M3icEhpbyh3VF9Nrk5UPM:BPdpEvbYdDyKIxvxdCI4c5mzAh0=)
 - [React Native iOS 通信机制初探](http://web.jobbole.com/84740/)
+- [项目接入使用React Native](http://zeeyang.com/2016/10/09/react-native/)
+- [React-Native之自定义下拉刷新](http://5minuteswalk.com/2016/08/24/React-Native%E4%B9%8B%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%8B%E6%8B%89%E5%88%B7%E6%96%B0/)
+- [深入ReactNative第一篇 通讯及消息循环代码剖析](http://www.jianshu.com/p/269b21958030)
+- [React：创建可维护、高性能的 UI 组件](http://www.ibm.com/developerworks/cn/web/wa-react-intro/)
+- [Qunar React Native Releases](http://ued.qunar.com/qrn/releases.html)
 
 ### Open Source
 - [react-native-hybrid-app-examples](https://github.com/dsibiski/react-native-hybrid-app-examples)
+- [React Native Navigation](https://github.com/wix/react-native-navigation/wiki)

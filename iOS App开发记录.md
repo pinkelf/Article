@@ -18,6 +18,7 @@
 - [Method Swizzling](https://github.com/rentzsch/jrswizzle)
 - [EventBus-iOS](https://github.com/github-xiaogang/EventBus-iOS)
 - [Navigation Router](https://github.com/idevzhou/ZYYRouter)
+- [in APP Debug](https://github.com/Flipboard/FLEX)
 
 ##备忘
 
