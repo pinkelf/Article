@@ -42,6 +42,10 @@
 - [深入ReactNative第一篇 通讯及消息循环代码剖析](http://www.jianshu.com/p/269b21958030)
 - [React：创建可维护、高性能的 UI 组件](http://www.ibm.com/developerworks/cn/web/wa-react-intro/)
 - [Qunar React Native Releases](http://ued.qunar.com/qrn/releases.html)
+- [React-Native痛点解析之开发环境搭建及扩展](http://www.infoq.com/cn/articles/react-native-solution-dev-environment)
+- [React Native通信机制详解](http://blog.cnbang.net/tech/2698/)
+- [React Native 之 JSBridge](http://www.alloyteam.com/2015/05/react-native-zhi-jsbridge/#prettyPhoto)
+- [React Native 从入门到源码](https://bestswifter.com/react-native/)
 
 ### Open Source
 - [react-native-hybrid-app-examples](https://github.com/dsibiski/react-native-hybrid-app-examples)

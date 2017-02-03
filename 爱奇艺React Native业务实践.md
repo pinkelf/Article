@@ -39,8 +39,7 @@
   - Native <-> RN <-> Web 跳转研究
   - Cookie同步
 <br><br/>
-3. 前端打包、部署
-  - npm服务搭建，私有npm包
+3. 稳定性与兼容性
 <br><br/>
 4. 优化
   - 优化点
@@ -54,9 +53,13 @@
     - [bundle拆分](https://github.com/ustcqidi/Article/blob/master/React%20Native%20repack%20solution/repack.md)
     - 缓存 AsyncStorage
 <br><br/>
-5. 风险控制、降级方案
-
-6. 踩过的坑
+5. RN异常捕获机制
+<br><br/>
+6. RN的性能监控
+<br><br/>
+7. 风险控制、降级方案
+<br><br/>
+8. 踩过的坑
   - RCT开头的模块，RN加载的时候回去掉RCT前缀
   - React Native框架工程引用基线工程模块是通过配置Header Search Paths完成编译的
     - RN框架会编译成静态库，不会链接出错，最终运行需要再基线主工程中确保可以链接到基线基础库
@@ -64,17 +67,15 @@
   - RN与系统Cookie同步
   - 电商首页是Tabbar方式布局的，我们要改造的"秒杀"列表页面只是其他一个Tab页面，点击"秒杀"列表项时进入商品详情页，这时候默认情况下底部的Tabbar还在；考虑过重新启一个RN页面实例，然后使用pushViewConroller方式打开详情页面；这种方案有两个问题：1. 多个RN实例，内存、CPU开销变大；2. RN只有入口url，不是每个页面都有url，要新启动RN的View需要业务方针对“秒杀”列表和详情页面分别写两个入口，这样的话会涉及两个页面的参数传递问题。最后把解决问题的焦点放在 ***隐藏Tabbar*** 上，具体方案参考[这里](https://github.com/ustcqidi/Article/blob/master/iOS%20App%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95.md)。
 
-7. TODO
-  - 分包方案实现
-  - 稳定性监控
-  - RN异常捕获机制调研
-  - RN Bundle发布管理
-
-### 工程化
-  - RN的性能监控
-  - RN的基础js封装
+### 研发支撑(体系化、工程化)
+  - RN Bundle打包、灰度、部署管理
+  - RN的基础组件封装
+    - npm服务搭建，私有npm包
   - RN的代码规范和相关sample code
-  - RN的相关资料完善，包括wiki，接入demo工程等
+  - RN的相关资料完善，包括wiki，模板工程，Playground等
+
+### TODO
+    - 分包方案实现  
 
 ### 推广
   - [React Native调研分享](https://github.com/ustcqidi/Keynote/blob/master/rn.pptx.zip)
@@ -115,6 +116,8 @@
 1. 具体工作
   - Kickoff会议，讨论泡泡可改造页面
 
+2. 进度
+
 #### iPAD活动页面
 1. 具体工作
   - Kickoff会议
@@ -125,7 +128,8 @@
 
 #### 动漫
 1. 具体工作
-  - 框架层统一
+
+2. 进度
 
 #### 文学
 1. 具体工作
