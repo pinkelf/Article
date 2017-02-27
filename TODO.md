@@ -1,10 +1,15 @@
+- 新西兰城市经纬度
+- 当前位置是否是新西兰
+- 获取用户当前位置
 - Beatop API实现
-- 学生端通讯录分组Bug
+- 注册、登录VC的通知机制改成Block -测试
+- 家庭端用户身份确认
 - 多语言
 
-- 去哪儿RN实践文章
-- RN页面动态化生成方案
-- 游戏直播RN工程
-- iqiyi-react组件工程跑起来
-- JSBridge缓存方案
 - H5资源包下载管理实现
+- RN页面动态化生成方案
+- Card方案Review
+- 去哪儿RN实践文章
+- JSBridge缓存方案  -Done
+- iqiyi-react组件工程跑起来 -Done
+- 游戏直播RN工程需求Review -Done
