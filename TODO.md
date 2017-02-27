@@ -1,9 +1,12 @@
 - 新西兰城市经纬度
+- Beatop API实现
 - 当前位置是否是新西兰
 - 获取用户当前位置
-- Beatop API实现
+- 测试环境API error
+- UpdateAccout API业务逻辑问题
+
 - 注册、登录VC的通知机制改成Block -测试
-- 家庭端用户身份确认
+- 家庭端用户身份确认 -Done
 - 多语言
 
 - H5资源包下载管理实现
