@@ -1,5 +1,6 @@
+- 房间信息存取
+- 房间信息读取与显示
 - Beatop API实现
-- 测试环境API error
 - UpdateAccout API业务逻辑问题
 
 - 注册、登录VC的通知机制改成Block -测试
