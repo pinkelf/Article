@@ -1,8 +1,5 @@
-- 房间信息存取
-- 房间信息读取与显示
-- Beatop API实现
+- 多图上传
 - UpdateAccout API业务逻辑问题
-- 编辑房屋信息业务逻辑实现
 
 - 注册、登录VC的通知机制改成Block -测试
 - 家庭端用户身份确认 -Done
@@ -15,12 +12,15 @@
 - 选中的时候是打勾 -Done
 - 移动地图时，图标居中不动 -Done
 - 多语言
+- 房间信息存取 -Done
+- 房间信息读取与显示 -Done
+- 编辑房屋信息业务逻辑实现 -Done
+- 床选择与UI更新 -Done
 
 - ListView性能优化
 - API封装，支持Android/iOS
-- iOS RC 启动崩溃
 - 视频播放组件(对接大播放内核)
-- 扫码打开测试Bundle -Done
+- iOS RC 启动崩溃
 - 富文本Text组件
 - Card 3.0实现
 - 去哪儿RN实践文章
@@ -28,3 +28,4 @@
 - iqiyi-react组件工程跑起来 -Done
 - 游戏直播RN工程需求Review -Done
 - H5资源包下载管理实现 -Done
+- 扫码打开测试Bundle -Done
