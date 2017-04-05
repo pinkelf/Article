@@ -1,7 +1,8 @@
-- 多图上传
+- API请求Cancel
+- 需求列表页面整体逻辑
+- 可租不可租时间段选择UI逻辑
 - UpdateAccout API业务逻辑问题
-
-- 注册、登录VC的通知机制改成Block -测试
+- 注册、登录VC的通知机制改成Block -Done
 - 家庭端用户身份确认 -Done
 - 获取用户当前位置 -Done
 - 当前位置是否是新西兰 -Done
@@ -16,16 +17,23 @@
 - 房间信息读取与显示 -Done
 - 编辑房屋信息业务逻辑实现 -Done
 - 床选择与UI更新 -Done
+- 多图上传 -Done
+- 家庭成员业务逻辑 -Done
+- 业务数据提交 -Done
 
-- ListView性能优化
+
 - API封装，支持Android/iOS
 - 视频播放组件(对接大播放内核)
-- iOS RC 启动崩溃
 - 富文本Text组件
-- Card 3.0实现
+- iOS RC 启动崩溃 -Done
+  - 连续JS崩溃投递保护
+- Card 3.0实现 -Done (Research)
 - 去哪儿RN实践文章
 - JSBridge缓存方案  -Done
 - iqiyi-react组件工程跑起来 -Done
 - 游戏直播RN工程需求Review -Done
 - H5资源包下载管理实现 -Done
 - 扫码打开测试Bundle -Done
+- ListView性能优化 -Pending
+- APP内嵌webview希望能够支持video的半屏播放 -Done
+- QYWebView编译、Pod发布 -Done
