@@ -65,3 +65,12 @@ Virtual DOM Diff算法? 时间复杂度
 
 参考资料
 - https://zhuanlan.zhihu.com/p/20346379
+
+
+
+
+====================================================================================================================================
+
+React Conf 2017
+Incrementally Adopting React Native at Facebook
+https://engineering.instagram.com/react-native-at-instagram-dd828a9a90c7?gi=abec5ff721f2#.cstvw4bmp
